@@ -1,0 +1,100 @@
+# Fanout script writing: what we sell, who we never name, and where we listen.
+# The Nov 11 sourcing pipeline config, updated on Nov 13, 2026 with the product facts read from fanout.sh on Nov 12.
+# bin/pipeline and tools/check_script.py both read this file, then config/fanout.local.toml on top of it
+# (names of competitors, channels and products stay in that local file; template: config/fanout.local.example.toml).
+
+[product]
+name = "Fanout"
+url = "Fanout.sh"
+# How the URL must be written inside a Veo prompt line (Veo says "Fanout.sh" as "shhh").
+spoken_url = "Fanout dot ess aitch"
+tagline = "Curated, mapped & complete."
+static_headline = "Everything you need to become a senior engineer. In order."
+one_liner = "An archive for engineers: courses on System Design, ML Math, AI Research, Inference Engineering and AI Engineering, sequenced, in one place."
+audience = "Software engineers who want to operate at a senior level: system design, the math behind ML, AI research, inference and AI engineering."
+# The ONLY product claims a script may make. Add a fact here (and in docs/product-facts.md) before a script uses it.
+facts = [
+  "Five live courses: System Design, ML Math, AI Research, Inference Engineering, AI Engineering.",
+  "Each course is sequenced: fundamentals first, then depth.",
+  "System Design shows how systems at companies like Netflix and Uber actually work, with interactive animations.",
+  "ML Math goes from sets and logic through linear algebra, calculus and probability, with interactive checks.",
+  "AI Research puts landmark papers in reading order and explains the ideas behind a paper before you read it.",
+  "Inference Engineering covers latency and cost budgets, KV cache, batching and quantization.",
+  "AI Engineering covers embeddings and retrieval, LLM internals, optimizations, reasoning, MCP and agents.",
+  "Every course has free lessons; the site says 'Start learning free'.",
+  "Everything is in one place, so you stop hunting across YouTube videos, blogs and papers.",
+]
+# Never claim these (unproven or risky).
+banned_claims = [
+  "user counts, ratings, success rates or any number the owner has not supplied",
+  "job offers, promotions, salaries or interview pass guarantees",
+  "courses that are announced but not live (robot arm, RL, pre/post-training, diffusion, fine-tuning, open robotics)",
+  "competitor names or trademarks inside our script",
+]
+# Never said in a script. bin/pipeline check and tools/check_script.py flag these.
+competitor_names = []   # the real list lives in config/fanout.local.toml (git-ignored)
+courses = ["System Design", "ML Math", "AI Research", "Inference Engineering", "AI Engineering"]
+# Folder where a script goes when it is picked for production (one folder per script).
+deliver_dir = "~/Documents/fanout/AI ugc"
+
+[scoring]
+pack_size = 12          # items per pillar in each evidence pack
+transcribe_top = 8      # fetch transcripts for this many top ads / organic videos per run
+
+# ---------------------------------------------------------------------------
+# Competitor ads (Meta Ad Library). Method: docs/04-research-methods.md, section 1.
+[ads]
+countries = ["US", "IN", "GB"]
+search_terms = [
+  "system design",
+  "AI engineer",
+  "senior engineer",
+  "learn system design",
+  "AI engineering course",
+  "LLM engineering",
+  "inference engineering",
+]
+competitors = []   # { name = "…", page_id = "…" } entries live in config/fanout.local.toml
+max_ads_per_competitor = 60
+
+# ---------------------------------------------------------------------------
+# Organic outliers (YouTube via yt-dlp). Method: docs/04-research-methods.md, section 2.
+[organic]
+search_terms = ["how to become a senior engineer", "system design", "math for machine learning", "how to read research papers", "LLM inference", "AI engineer roadmap"]
+youtube_channels = []   # channel handles live in config/fanout.local.toml
+tiktok_accounts = []      # handles without @ (needs SCRAPECREATORS_API_KEY)
+instagram_accounts = []   # handles without @ (needs SCRAPECREATORS_API_KEY)
+videos_per_channel = 40
+
+# ---------------------------------------------------------------------------
+# Community pain points. Method: docs/04-research-methods.md, section 3.
+[community]
+subreddits = ["ExperiencedDevs", "cscareerquestions", "learnmachinelearning", "MachineLearning", "LocalLLaMA", "LLMDevs", "softwarearchitecture", "developersIndia"]
+search_terms = ["senior engineer", "system design", "math for machine learning", "research papers", "LLM inference", "AI engineering"]
+reddit_days = 30
+stackoverflow_tags = ["system-design", "distributed-system", "scalability", "microservices", "load-balancing", "database-design", "apache-kafka"]
+hackernews_min_points = 80
+pain_words = [
+  "struggle", "struggling", "can't", "cannot", "confused", "confusing", "stuck", "overwhelmed", "hate",
+  "rejected", "failed", "fail", "bombed", "nervous", "anxious", "imposter", "no idea", "don't understand",
+  "how do i", "how do you", "where do i start", "wish", "anyone else", "frustrat", "waste", "too many",
+  "hours", "tabs", "tutorial hell", "senior", "promotion", "interview",
+]
+# Relevance tiers, matched in the title and the first 500 characters:
+#   topic_words in the title x2.0, in the opening x1.5 (what Fanout teaches)
+#   learning_words only x1.0, neither x0.4
+topic_words = [
+  "system design", "design interview", "distributed", "scalab", "architecture", "microservice",
+  "kafka", "load balanc", "sharding", "replication", "consistency", "database design", "latency",
+  "staff engineer", "senior engineer", "infrastructure", "llm", "inference", "gpu", "cuda", "ai engineer", "ml engineer",
+  "rag", "transformer", "research paper", "papers", "linear algebra", "math", "embedding", "agent",
+  "netflix", "uber", "high level design", "hld", "lld",
+]
+learning_words = ["how does", "understand", "learn", "resources", "roadmap", "course", "tutorial", "explain"]
+
+# ---------------------------------------------------------------------------
+# Marketplace (Amazon reviews and listing copy of rival books).
+# With APIFY_TOKEN: pulls reviews + listing. Without: paste into inputs/amazon/<product>/reviews.txt.
+[marketplace]
+max_reviews = 100
+products = []   # { name = "…", url = "…" } entries live in config/fanout.local.toml

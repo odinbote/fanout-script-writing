@@ -1,0 +1,91 @@
+{
+ "success": true,
+ "credits_remaining": 1000000,
+ "credits_charged": 1,
+ "adArchiveID": 1185617869915074,
+ "endDate": 1750316400,
+ "isAAAEligible": false,
+ "isActive": true,
+ "pageID": 15087023444,
+ "pageName": "Nike",
+ "politicalCountries": [],
+ "reachEstimate": null,
+ "snapshot": {
+  "ad_creative_id": 1809449763118705,
+  "cards": [],
+  "body_translations": {},
+  "byline": null,
+  "caption": "fb.com",
+  "cta_text": "Learn more",
+  "dynamic_item_flags": {},
+  "dynamic_versions": null,
+  "edited_snapshots": [],
+  "effective_authorization_category": "NONE",
+  "event": [],
+  "extra_images": [
+   {
+    "original_image_handle": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/508997149_744746594672572_3057533797808431470_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eKgqs7-b06UQ7kNvwGSYm41&_nc_oc=AdnV_v1Anh3aqBBXDa3xwDrMtLJUCvE8yKIgP5ODbX3xsSMCtTv2ucMTy36I8Bq20HU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ocFZ2kPWmNZ0nKyk5HCtkQ&oh=00_AfNfDJHp6d0Ie9tIXLBIXFQiMgWHVl1i48DahYYOgANgHg&oe=685A4B4A",
+    "resized_image_handle": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.35426-6/508997149_744746594672572_3057533797808431470_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=108&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eKgqs7-b06UQ7kNvwGSYm41&_nc_oc=AdnV_v1Anh3aqBBXDa3xwDrMtLJUCvE8yKIgP5ODbX3xsSMCtTv2ucMTy36I8Bq20HU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ocFZ2kPWmNZ0nKyk5HCtkQ&oh=00_AfMe107fPkaznD6Pw8_wDaon3p-31ZXLHIeglHU_P3NYNw&oe=685A4B4A"
+   }
+  ],
+  "extra_links": [
+   "https://www.nike.com.ar/"
+  ],
+  "extra_texts": [],
+  "extra_videos": [],
+  "instagram_shopping_products": [],
+  "display_format": "image",
+  "title": "6 cuotas sin inter\u00e9s",
+  "link_description": null,
+  "link_url": "https://fb.com/canvas_doc/1952657995267951",
+  "page_welcome_message": null,
+  "images": [
+   {
+    "original_image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/499542231_3815578848587795_5060085138610262269_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=yk26_frcPLkQ7kNvwF5EWnq&_nc_oc=Adk8Xjt1SjUg-mBxkm6iUuDfXpyGXD5G5g6PBae8g0WWsJT-MfnhNGII7JL-KM5MJBE&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ocFZ2kPWmNZ0nKyk5HCtkQ&oh=00_AfP6zfVuLkcD2Zts0gItXp801QK1k0lhEfqwwdqfNAU9gw&oe=685A3E80",
+    "resized_image_url": "https://scontent-ord5-3.xx.fbcdn.net/v/t39.35426-6/509090139_3448752085259208_8196922920009954562_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=tV3v2Y_NIh0Q7kNvwEMM-Vk&_nc_oc=AdnpccGMqNlM0k9O87VmMBIp9pGtj3l1dkO5HaKRCti2V4X6AKUn8BR08SXOc_Y-8TY&_nc_zt=14&_nc_ht=scontent-ord5-3.xx&_nc_gid=ocFZ2kPWmNZ0nKyk5HCtkQ&oh=00_AfPXGzKezcPJSpAq8Ql2Xgx6Rn0a3Poit-iTirfhAwuiHA&oe=685A5634",
+    "watermarked_resized_image_url": "",
+    "image_crops": {}
+   }
+  ],
+  "videos": [],
+  "creation_time": 1750344986,
+  "page_id": 15087023444,
+  "page_name": "Nike",
+  "page_profile_picture_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.35426-6/508670148_9776464209142246_4487234065380829819_n.jpg?stp=dst-jpg_s60x60_tt6&_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=Q0UJas7Kz2wQ7kNvwGKBRCa&_nc_oc=AdnobFr6ScYQJzp_Za4UEgMY34n373z6WuZwOA3h-ixlpbii4wA8lxcgAsbtBpCE3t4&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=ocFZ2kPWmNZ0nKyk5HCtkQ&oh=00_AfMlwCCMXN-4KPAZac9pYLWrHGZpld9SoTX1r9S9xRHB8Q&oe=685A5861",
+  "page_categories": {
+   "1713352298924731": "Sportswear"
+  },
+  "page_entity_type": "person_profile",
+  "page_is_profile_page": false,
+  "instagram_actor_name": "Nike",
+  "instagram_profile_pic_url": "https://scontent-ord5-3.xx.fbcdn.net/v/t39.35426-6/499229861_3519049748228633_8442052921006945421_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=eJcuzztd8e4Q7kNvwEpFLbr&_nc_oc=AdlI7WAi5QRhAOZCLwHcU3ZgxpxWSTzJr9PjPiwtUN9U2mkMB49Surq8HsQcDWfnTVc&_nc_zt=14&_nc_ht=scontent-ord5-3.xx&_nc_gid=ocFZ2kPWmNZ0nKyk5HCtkQ&oh=00_AfNnIjlMGopiAeVY7yEOxCT0sEvrij87SMrpkGJHs1lT-w&oe=685A55E2",
+  "instagram_url": "",
+  "instagram_handle": "",
+  "is_reshared": false,
+  "version": 3,
+  "body": "Aprovech\u00e1 6 cuotas sin inter\u00e9s con todos los bancos. \u00bfTe lo vas a perder? Compr\u00e1 ahora.",
+  "brazil_tax_id": null,
+  "branded_content": null,
+  "current_page_name": "Nike",
+  "disclaimer_label": null,
+  "page_like_count": 37497720,
+  "page_profile_uri": "https://www.facebook.com/nike/",
+  "page_is_deleted": false,
+  "root_reshared_post": null,
+  "cta_type": "LEARN_MORE",
+  "additional_info": null,
+  "ec_certificates": null,
+  "country_iso_code": null,
+  "instagram_branded_content": null
+ },
+ "totalActiveTime": 23488,
+ "spend": null,
+ "startDate": 1750316400,
+ "publisherPlatform": [
+  "facebook"
+ ],
+ "url": "https://www.facebook.com/ads/library?id=1185617869915074",
+ "startDateString": "2025-06-19T07:00:00.000Z",
+ "endDateString": "2025-06-19T07:00:00.000Z",
+ "aaa_info": null
+}

@@ -1,0 +1,31 @@
+{
+ "success": true,
+ "credits_remaining": 49998970118,
+ "credits_charged": 1,
+ "videos": [],
+ "channels": [],
+ "playlists": [],
+ "shorts": [
+  {
+   "type": "short",
+   "id": "VREVC0wXPfs",
+   "url": "https://www.youtube.com/watch?v=VREVC0wXPfs",
+   "title": "This idea validation formula has made him $500K from iOS apps",
+   "thumbnail": "https://img.youtube.com/vi/VREVC0wXPfs/maxresdefault.jpg",
+   "viewCountText": "17,066",
+   "viewCountInt": 17066,
+   "description": "Most founders think their app isn\u2019t selling because of market conditions.\n\nIt\u2019s not.\n\nThis founder sold multiple apps and noticed the same pattern every time: Great products but broken deals.\n\nNot because the app was bad but because founders overcomplicate operations and chase the highest price instead of the fastest close.",
+   "commentCountText": "2",
+   "commentCountInt": 2,
+   "likeCountInt": 495,
+   "likeCountText": "495",
+   "publishDate": "2026-04-22T10:44:35-07:00",
+   "genre": "People & Blogs",
+   "durationMs": 37000,
+   "durationFormatted": "00:00:37"
+  }
+ ],
+ "shelves": [],
+ "lives": [],
+ "continuationToken": "4qmFsgK7DBIY....."
+}

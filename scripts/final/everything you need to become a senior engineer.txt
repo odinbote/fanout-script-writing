@@ -1,0 +1,19 @@
+I'm about to reveal some sauce for engineers that's not out there. This is all you need to know to actually become a senior engineer.
+
+I searched YouTube. I read a bunch of blogs. I even asked a few senior engineers.
+
+And I found out what you actually need to learn.
+
+One, system design. That's how apps like Netflix and Uber handle millions of people.
+
+Two, the math behind Machine Learning, starting from the very basics.
+
+Three, the famous AI research papers, for example: "Attention is all you need".
+
+Four, inference engineering, which is how AI models actually run.
+
+And five, AI engineering, which is building real products with those models.
+
+And you can find all of these only on Fanout.
+
+Curated, mapped & complete.

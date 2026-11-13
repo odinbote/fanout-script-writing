@@ -1,0 +1,19 @@
+I honestly wasn't going to share this, because this sauce for engineers is not out there. It's all you need to know to actually become an AI engineer.
+
+So I searched YouTube, read a bunch of blogs, and even asked a few AI engineers.
+
+And it comes down to five things.
+
+One is embeddings and vector search, meaning how an AI finds things by meaning instead of keywords.
+
+Two is RAG, which is how it looks up your own data before it answers.
+
+Three is what's actually happening inside the model, like attention and transformers.
+
+Four is optimization, meaning making a model faster and cheaper to run, which is the part that gives everyone a headache.
+
+And five is agents and MCP, which is how a model uses tools to get real work done.
+
+It's crazy to me that all five are in one place. And you can find them only on Fanout.
+
+Curated, mapped and complete.

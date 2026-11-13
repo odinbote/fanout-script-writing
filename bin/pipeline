@@ -1,0 +1,3 @@
+#!/bin/zsh
+# Run the Fanout script pipeline from anywhere: bin/pipeline <command>
+cd "${0:A:h}/.." && exec /opt/homebrew/bin/python3.14 -m pipeline "$@"

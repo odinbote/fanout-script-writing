@@ -1,0 +1,21 @@
+# Copy to config/fanout.local.toml (git-ignored) and fill in. Everything here is merged over config/fanout.toml.
+
+[product]
+# Names that must never be said in a script. The checker flags them.
+competitor_names = ["Example Academy", "Another Course Site"]
+
+[ads]
+# Advertisers whose Meta Ad Library pages the pipeline reads.
+competitors = [
+  { name = "Example Academy", page_id = "000000000000000" },
+]
+
+[organic]
+# YouTube channel handles to baseline for outlier videos.
+youtube_channels = ["examplechannel"]
+
+[marketplace]
+# Books or products whose reviews are worth reading.
+products = [
+  { name = "Example Book", url = "https://www.amazon.com/dp/XXXXXXXXXX" },
+]

@@ -1,0 +1,14 @@
+.DS_Store
+._*
+__pycache__/
+*.pyc
+.env
+
+# Local only: research output, drafts, names
+data/
+output/
+research/
+scripts/archive/
+scripts/final/*sources.md
+docs/05-draft-history-*.md
+config/fanout.local.toml

@@ -1,0 +1,39 @@
+{
+ "success": true,
+ "credits_remaining": 49997307943,
+ "credits_charged": 1,
+ "query": "ai agents",
+ "posts": [
+  {
+   "url": "https://www.linkedin.com/posts/aagupta_what-you-need-to-know-ai-agents-activity-7354600338621906944-RvXR",
+   "datePublished": "2025-07-25T19:56:02.566Z",
+   "description": "There's way too much hype about AI agents.\n\nHere's your simple guide:\n\nForget the super complex taxonomies out there. There are 4 categories of tools you should know.\n\n1. Consumer Agents\n\nThe latest LLMs, like Grok and Claude, have agents built-in. ChatGPT is rolling out the 'Agent' tool to paid plans as we speak.\n\nThese are best for:\n\n- Ad-hoc analysis\n- Quick research tasks\n- Content creation (PRDs, strategy docs)\n\n2. No-Code Agent Builders\n\nThere is a new class of tools that you must know. Tools like Zapier and Lindy offer where you can do things like connecting your Gmail to Claude.\n\nBe sure to explore these for:\n\n- Email triage\n- Competitor monitoring\n- Automated data reporting\n\n3. Developer-First Platforms\n\nAll the tools you've heard like CrewAI, Langchain, and Autogen are great frameworks for developers. Think of them as the React/Node for agents.\n\nThey're for:\n\n- Customer-facing agents\n- Deep system integrations\n- Complex, proprietary business logic\n\n4. Specialized Agent Apps\n\nTools like Cursor, Otter, and Jasper are specialized agent apps. They're supported by complex business logic to do one task really well.\n\nMy recommendations:\n\n- Coding \u2192 Cursor\n- Meetings \u2192 Otter AI\n- Research \u2192 Perplexity\n\nReady to go the layer deeper? I teamed up with AI PM at Meta Vikash Rungta to write you the web's most practical and simple guide: https://lnkd.in/eeey5Cxr\n\nPlease, let's end all the hype and talk real use cases.\n\nP.S. What agent are you using most?",
+   "media": "https://media.licdn.com/dms/image/v2/D4E1FAQHAzpgC7eaKgw/feedshare-document-images_160/B4EZhDHPPEGoAs-/1/1753472629037?e=1780531200&v=beta&t=7UAmCkScn1TSkvHB9HxLTPoBV7wibupD2WlKSec3ork",
+   "images": [
+    "https://media.licdn.com/dms/image/v2/D4E1FAQHAzpgC7eaKgw/feedshare-document-images_160/B4EZhDHPPEGoAs-/1/1753472629037?e=1780531200&v=beta&t=7UAmCkScn1TSkvHB9HxLTPoBV7wibupD2WlKSec3ork"
+   ],
+   "image": "https://media.licdn.com/dms/image/v2/D4E1FAQHAzpgC7eaKgw/feedshare-document-images_160/B4EZhDHPPEGoAs-/1/1753472629037?e=1780531200&v=beta&t=7UAmCkScn1TSkvHB9HxLTPoBV7wibupD2WlKSec3ork",
+   "author": {
+    "name": "Aakash Gupta",
+    "url": "https://www.linkedin.com/in/aagupta",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQGl7mUqMgCLRQ/profile-displayphoto-scale_200_200/B56Z3V9cKNKgAc-/0/1777411150180?e=2147483647&v=beta&t=oVB3kzDdrFGH-2pOYeziFk3m_B8fTCiH190YbTMrgoY",
+    "followers": 313422
+   },
+   "comments": [
+    {
+     "author": "Lewin Wanzer",
+     "text": "Thanks for sharing, Aakash. Appreciate the breakdown\u2014but here\u2019s the twist most are missing: the AI agent is Agent Smith.\nThe more we chase \u201csmart tasks\u201d without structure, the more we lose the plot. Developers are confused. \u201cAI Architects\u201d don\u2019t exist. And agents are now doing things they were never cleared to do.\nWe don\u2019t need more tools\u2014we need orchestration, identity-bound execution, and governed outcomes. Tourque will set the standard. Until that\u2019s the norm, it\u2019s just hype on autopilot.",
+     "linkedinUrl": "https://www.linkedin.com/in/lewinwanzer",
+     "datePublished": "2025-08-02T01:23:21.112Z",
+     "publishedTimeAgo": "1y",
+     "urn": "urn:li:comment:(urn:li:ugcPost:7354600336214376448,7357219423591563264)",
+     "id": "7357219423591563264",
+     "reactionCount": 0
+    }
+   ],
+   "likeCount": 217,
+   "commentCount": 25
+  }
+ ],
+ "cursor": "2"
+}
